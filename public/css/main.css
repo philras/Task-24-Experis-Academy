@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    
 }
+
 
 h1 {
     font-size: 2rem;
@@ -20,41 +22,7 @@ h1 {
 .wrapper {
     display: flex;
     width: 100%;
-}
-
-#sideBarName{
-    font-size: 1.2em;
-    padding: 15px;
-}
-
-#profilPic{
-    height: 120px;
-    width: 120px;
-    clip-path: circle(50%);
-    display: block;
-    margin-left: auto;
-    margin: auto;
-}
-
-p{
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 1em;
-}
-
-.sidebarLinks{
-    color: white;
-    
-}
-
-#sidebar ul li a {
-    font-size: 1.1em;
-    display: block;
-}
-
-#sidebar ul li a:hover {
-    color: #448aff;
-    background: #fff;
 }
 
 #sidebar {
@@ -64,34 +32,95 @@ p{
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #448aff;
+    background: #83b9ff;
     color: #fff;
 }
 
-#navHeader{
-    background:  #005ecb;
+#navHeader {
+    background: #005ecb;
     padding: 10px;
 }
-#linkContainer{
+
+#sideBarName {
+    font-size: 1.2em;
+    padding: 15px;
+
+    /*    font-family: 'Poppins', sans-serif;*/
+}
+
+#profilPic {
+    height: 120px;
+    width: 120px;
+    clip-path: circle(50%);
+    display: block;
+    margin-left: auto;
+    margin: auto;
+}
+
+#contactInfo{
+    background: #448aff;
+    padding: 20px;
+}
+
+#contactInfo ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0
+}
+
+#contactInfo li {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+
+
+#contactInfo i {
+    margin-right: 10px;
+}
+
+#linkContainer {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.sidebarLinks{
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
-.sidebarLinks a {
-    padding:10px;
-}
-
-i{
-    color: #ffffff;
-}
-
-#socialLinks{
+#sidebar ul li a {
+    font-size: 1.1em;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    transition: all 0.5s;
     text-align: center;
 }
+
+#sidebar ul li a:hover {
+    color: #448aff;
+    background: #fff;
+    text-decoration: none;
+}
+
+
+
+#social{
+    text-align: center;
+    bottom:0;
+    
+}
+
+i.fab{
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+i.fab:hover{
+    transform: scale(1.2);
+}
+
 
 /*------ CONTENT --------*/
 #content {
@@ -101,9 +130,15 @@ i{
     position: absolute;
     top: 0;
     right: 0;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+p {
+    /*    font-family: 'Poppins', sans-serif;*/
+    
 }
 
 #content.active {
     width: 100%;
 }
-

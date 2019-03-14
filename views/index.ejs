@@ -21,11 +21,19 @@
         <nav id="sidebar">
             <div id="navHeader" class="sidebar-header">
                 <h2 align="center" id="sideBarName"><%= user.firstName + " " +user.lastName %> </h2>
-                <img align="center" id="profilPic" src="<%- user.profilePicture %>">
-                <p align="center" id="title"><%= user.title %></p>
-                <p><%= user.location[0].address + ", " + user.location[0].postalCode + " " + user.location[0].city  %></p>
-                <p><%= user.email %></p>
-                <p><%= user.telephone %></p>
+
+                <div>
+                    <img align="center" id="profilPic" src="<%- user.profilePicture %>">
+                    <p align="center" id="title"><%= user.title %></p>
+                </div>
+            </div>
+
+            <div id="contactInfo">
+                <ul>
+                    <li><i class="fas fa-home"></i><%= user.location[0].address + ", " + user.location[0].postalCode + " " + user.location[0].city  %></li>
+                    <li><i class="fas fa-envelope"></i><%= user.email %></li>
+                    <li><i class="fas fa-phone"></i><%= user.telephone %></li>
+                </ul>
             </div>
 
             <div id="linkContainer">
@@ -41,11 +49,13 @@
 
                 </ul>
             </div>
-
-            <div id="socialLinks">
-                <a href="<%- user.socialLinks[0].url %>"><i class="fab fa-github fa-3x"></i></a>
-                <a href="<%- user.socialLinks[1].url %>"><i class="fab fa-linkedin-in fa-3x"></i></a>
+            
+            
+            <div id="social">
+                <a href><i class="fab fa-github fa-3x"></i></a>
+                <a href><i class="fab fa-linkedin fa-3x"></i></a>
             </div>
+
         </nav>
 
         <div id="content">
