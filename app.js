@@ -16,8 +16,7 @@ let data = JSON.parse(rawData);
 // use res.render to load up an ejs view file
 // index page 
 app.get('/', function(req, res) {
-
-    //res.json(data);
+  //res.json(data);
     res.render(data);
 });
 
