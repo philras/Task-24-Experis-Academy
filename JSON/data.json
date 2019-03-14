@@ -1,0 +1,83 @@
+[
+    {
+        "profilePicture": "",
+        "firstName": "",
+        "lastName": "",
+        "dateOfBirth": "",
+        "title": "",
+        "number": "",
+        "email": "",
+        "nationality": "",
+        "languages":[
+            {
+                "language": "",
+                "proficiency": ""
+            }
+        ],
+        "skills":[
+            {
+                "skill": "",
+                "proficiency": ""
+            }
+        ],
+        "socialLinks":[
+            {
+                "name": "",
+                "url": ""
+            }
+        ],
+        "location": [
+            {
+                "address": "",
+                "postalCode": "",
+                "city": "",
+                "country": ""
+            }
+        ],
+        "summary": "",
+        "projects": [
+            {
+                "projectName": "",
+                "client": "",
+                "projectSummary": "",
+                "startDate": "",
+                "endDate": "",
+                "role": ""
+            }
+        ],
+        "education": [
+            {
+                "school": "",
+                "startDate": "",
+                "endDate": "",
+                "grade": ""
+            }
+        ],
+        "workExperience": [
+            {
+                "startDate": "",
+                "endDate": "",
+                "position": "",
+                "employer": "",
+                "workDescription": ""
+            }
+        ],
+        "sertifications": [
+          {
+                "startDate": "",
+                "endDate": "",
+                "sertificate": "",
+                "organizer": "",
+                "sertificateDescription": ""
+            }  
+        ],
+        "courses": [
+          {
+                "endDate": "",
+                "nameCourse": "",
+                "organizer": "",
+                "courseDescription": ""
+            }  
+        ]
+        
+}]
