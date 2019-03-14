@@ -67,27 +67,27 @@
         ],
         "education": [
             {
-                "school": "",
-                "startDate": "",
-                "endDate": "",
-                "grade": ""
+                "school": "Westerdals Oslo ACT",
+                "startDate": "2015",
+                "endDate": "2018",
+                "grade": "Bachelor i Informatikk"
             }
         ],
         "workExperience": [
             {
-                "startDate": "",
-                "endDate": "",
-                "position": "",
-                "employer": "",
-                "workDescription": ""
+                "startDate": "2019",
+                "endDate": "dd",
+                "position": "Fullstack Java-utvikler",
+                "employer": "Experis Academy",
+                "workDescription": "Et program som varer i 15 måneder, hvor de 3 første månedene er man på Noroff og har teori, casearbeid og sertifiseringsløp (Java SE Programmer 1). De neste 12 månedene er man ute hos en av Experis sine kunder og jobber med prosjekt for kunden."
             }
         ],
         "sertifications": [
           {
-                "startDate": "",
-                "endDate": "",
-                "sertificate": "",
-                "organizer": "",
+                "startDate": "2019",
+                "endDate": "dd",
+                "sertificate": "Oracle Certified Associate, Java SE 8 Programmer",
+                "organizer": "Glasspaper",
                 "sertificateDescription": ""
             }  
         ],

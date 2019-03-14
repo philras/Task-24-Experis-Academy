@@ -28,14 +28,3 @@ app.get('/about', function(req, res) {
 app.listen(8081);
 console.log('8080 is the magic port');
 
-    
-});
-
-// about page 
-app.get('/data', function(req, res) {
-    res.json(data);
-});
-
-app.listen(8081);
-console.log('8081 is the magic port');
-
