@@ -1,8 +1,7 @@
-[
     {
-        "profilePicture": "",
-        "firstName": "",
-        "lastName": "",
+        "profilePicture": "http://www.google.no ",
+        "firstName": "Hello",
+        "lastName": "world",
         "dateOfBirth": "",
         "title": "",
         "number": "",
@@ -80,4 +79,4 @@
             }  
         ]
         
-}]
+}
