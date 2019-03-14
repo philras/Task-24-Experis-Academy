@@ -1,5 +1,5 @@
     {
-        "profilePicture": "http://www.google.no ",
+        "profilePicture": "https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_960_720.jpg ",
         "firstName": "Jan-Philippe",
         "lastName": "Guerrero",
         "dateOfBirth": "050493",
@@ -31,11 +31,11 @@
         "socialLinks":[
             {
                 "name": "Github",
-                "url": "www.github.com/philras"
+                "url": "https://github.com/philras"
             },
             {
                 "name": "LinkedIn",
-                "url": "www.linkedin.com/in/jan-phlippe/"
+                "url": "https://linkedin.com/in/jan-phlippe/"
             }
         ],
         "location": [
@@ -82,7 +82,7 @@
                 "workDescription": "Et program som varer i 15 måneder, hvor de 3 første månedene er man på Noroff og har teori, casearbeid og sertifiseringsløp (Java SE Programmer 1). De neste 12 månedene er man ute hos en av Experis sine kunder og jobber med prosjekt for kunden."
             }
         ],
-        "sertifications": [
+        "certificates": [
           {
                 "startDate": "2019",
                 "endDate": "dd",
