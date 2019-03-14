@@ -57,12 +57,12 @@
             },
             
             {
-                "projectName": "Fullstack Java",
-                "client": "Experis Academy",
-                "projectSummary": "Akselerert læringsprogram i 3 mnd med mål om å bli Fullstack Javautvikler med spesialisering i frontend. Utvalgte teknologier og rammeverk: Java, IntelliJ, Eclipse, UML, Git, Apache Maven, Scrum, Jira, Spring, SpringBoot, JDBC, Deployment, JNLP, REST, Microservices, Web Serves, HTML, CSS, Bootstrap 4, WGAG 2.0, JavaScript, jQuery, ReactJS, AngularJS, NodeJS, TDD, Continuous Integration, DevOps, Extreme programmering, Kanban, Progressiv Web Apps. Gjennomfører sertifiseringen Java SE Programmer I i perioden.",
+                "projectName": "Email signature",
+                "client": "The Juicery",
+                "projectSummary": "Philippe fikk i oppdrag i å lage email signaturen som skal bli brukt av de ansatte i The Juicery. HTML5/CSS3 ble brukt til å kode email signaturen.",
                 "startDate": "2019",
                 "endDate": "2019",
-                "role": "Developer"
+                "role": "Frontend-developer"
             }
         ],
         "education": [
