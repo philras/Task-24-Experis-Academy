@@ -125,6 +125,8 @@ i.fab{
     color: white;
     padding: 10px;
     transition: 0.5s;
+    height: 10vh;
+    width: 10vh;
     
 }
 
