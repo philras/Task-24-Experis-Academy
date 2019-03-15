@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/public/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+</head>
+
+<body>
+
+
+    <nav id="sidebar">
+        <div id="navHeader" class="sidebar-header">
+            <h2 align="center" id="sideBarName"><%= user.firstName + " " +user.lastName %> </h2>
+
+            <div>
+                <img align="center" id="profilPic" src="<%- user.profilePicture %>">
+                <p align="center" id="title"><%= user.title %></p>
+            </div>
+        </div>
+
+        <div id="contactInfo">
+            <ul>
+                <li><i class="fas fa-home"></i><%= user.location[0].address + ", " + user.location[0].postalCode + " " + user.location[0].city  %></li>
+                <li><i class="fas fa-envelope"></i><%= user.email %></li>
+                <li><i class="fas fa-phone"></i><%= user.telephone %></li>
+            </ul>
+        </div>
+
+        <div id="linkContainer">
+            <ul class="list-unstyled components" d="links">
+                <li><a href="#lang" class="sidebarLinks">Languages</a></li>
+
+                <li><a id="test" href="#skills" class="sidebarLinks">Skills</a></li>
+                <li><a href="#project" class="sidebarLinks">Projects</a></li>
+                <li><a href="#education" class="sidebarLinks">Education</a></li>
+                <li><a href="#work" class="sidebarLinks">Work experience</a></li>
+                <li><a href="#certification" class="sidebarLinks">Certifications</a></li>
+                <li><a href="#course" class="sidebarLinks">Courses</a></li>
+
+            </ul>
+        </div>
+        <div id="social">
+            <a href><i class="fab fa-github fa-3x"></i></a>
+            <a href><i class="fab fa-linkedin fa-3x"></i></a>
+        </div>
+
+    </nav>
+
+
+    <div class="content">
+        <!-- Summary -->
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-wrap">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <p class="fas fa-file-alt"></p> Summary
+                            </h5>
+                            <p class="card-text"><%= user.summary %></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Languages -->
+        <% if(user.languages.length > 0){ %>
+        <section id="lang" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-wrap">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <p class="fas fa-globe-europe"></p> Languages
+                            </h5>
+                            <p class="card-text">
+                                <ul class="list-group">
+
+                                    <% user.languages.forEach(function(lang){ %>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <%= lang.language %>
+                                        <span class="badge badge-primary badge-pill">
+                                            <%= lang.proficiency %>
+                                        </span>
+                                    </li>
+                                    <% }); %>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <% } %>
+
+        <!-- Skills -->
+        <% if(user.skills.length > 0){ %>
+        <section id="skills" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-wrap">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <p class="fab fa-codepen"></p> Skills
+                            </h5>
+                            <p class="card-text">
+                                <ul class="list-group">
+
+                                    <% user.skills.forEach(function(skill){ %>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <%= skill.skill %>
+                                        <span class="badge badge-primary badge-pill">
+                                            <%= skill.proficiency %>
+                                        </span>
+                                    </li>
+                                    <% }); %>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <% } %>
+
+        <!-- Projects -->
+        <% if(user.projects.length > 0){ %>
+        <section id="project" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-wrap">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <p class="fas fa-file-code"></p> Projects
+                            </h5>
+                            <p class="card-text">
+                                <div class="row">
+                                    <% user.projects.forEach(function(project, i){ %>
+                                    <div class="card-item col-sm-12 col-md-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="h4"><%= project.projectName %></h5>
+                                                <p> <%= project.role %> </p>
+                                                <p class="lead"><%= project.client %></p>
+                                                <p>
+                                                    <span> <%= project.startDate %> </span> -
+                                                    <span> <%= project.endDate %> </span>
+                                                </p>
+                                                <p class="card-text">
+                                                    <%= project.projectSummary %>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <% }); %>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <% } %>
+
+        <!-- Education -->
+        <% if(user.education.length > 0){ %>
+        <section id="education" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-wrap">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <p class="fas fa-graduation-cap"></p> Education
+                            </h5>
+                            <p class="card-text">
+                                <div class="row">
+                                    <% user.education.forEach(function(ed){ %>
+                                    <div class="card-item col-sm-12 col-md-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="h4"><%= ed.grade %></h5>
+                                                <p class="lead"><%= ed.school %></p>
+                                                <p>
+                                                    <span> <%= ed.startDate %> </span> -
+                                                    <span> <%= ed.endDate %> </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <% }); %>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <% } %>
+
+        <!-- Work experience -->
+        <% if(user.workExperience.length > 0){ %>
+        <section class="container">
+            <p id="work"></p>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-wrap">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <p class="fas fa-briefcase"></p> Work experience
+                            </h5>
+                            <p class="card-text">
+                                <div class="row">
+                                    <% user.workExperience.forEach(function(work){ %>
+                                    <div class="card-item col-sm-12 col-md-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="h4"><%= work.employer %></h5>
+                                                <p class="lead"><%= work.position %></p>
+                                                <p>
+                                                    <span> <%= work.startDate %> </span> -
+                                                    <span> <%= work.endDate %> </span>
+                                                </p>
+                                                <p class="card-text">
+                                                    <%= work.workDescription %>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <% }); %>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <% } %>
+
+        <!-- Certifications -->
+        <% if(user.certificates.length > 0){ %>
+        <section id="certification" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-wrap">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <p class="fas fa-certificate"></p> Certifications
+                            </h5>
+                            <p class="card-text">
+                                <div class="row">
+                                    <% user.certificates.forEach(function(sert){ %>
+                                    <div class="card-item col-sm-6 col-md-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="h4"><%= sert.organizer %></h5>
+                                                <p class="lead"><%= sert.certificates %></p>
+                                                <p>
+                                                    <span> <%= sert.startDate %> </span> -
+                                                    <span> <%= sert.endDate %> </span>
+                                                </p>
+                                                <p class="card-text">
+                                                    <%= sert.sertificateDescription %>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <% }); %>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <% } %>
+
+        <!-- Courses -->
+        <% if(user.courses.length > 0){ %>
+        <section id="course" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-wrap">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <p class="fas fa-chalkboard"></p> Courses
+                            </h5>
+                            <p class="card-text">
+                                <div class="row">
+                                    <% user.courses.forEach(function(course){ %>
+                                    <div class="card-item col-sm-6 col-md-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="h4"><%= course.organizer %></h5>
+                                                <p class="lead"><%= course.nameCourse %></p>
+                                                <p>
+                                                    <span> <%= course.endDate %> </span>
+                                                </p>
+                                                <p class="card-text">
+                                                    <%= course.courseDescription %>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <% }); %>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <% } %>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        const content = document.querySelector('.content');
+        const sidebar = document.querySelector('#sidebar').getBoundingClientRect();
+
+        content.style.marginLeft = `${sidebar.width}px`;
+
+        $(document).ready(function() {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+* {
+    box-sizing: border-box;
+}
+
+
+html, body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.sidebar {
+    width: 400px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: #007bff;
+}
+
+/* CONTENT */
+
+.card-wrap {
+    padding: 12px 6px;
+    margin: 10px;
+    border: 0 !important;
+    border-radius: 2px !important;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.20);
+}
+
+.badge {
+    padding: 9px !important;
+}
+
+.card {
+    border: 0 !important;
+}
+
+.card-item {
+    border-bottom: 1px solid lightgray;
+}
+
+.card-item:last-of-type {
+    border: 0;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 999;
+    background: #83b9ff;
+    color: #fff;
+}
+
+#navHeader {
+    background: #005ecb;
+    padding: 10px;
+   
+}
+
+#sideBarName {
+/*    font-size: 1.2em;*/
+    font-size: 2.5vh;
+    padding: 15px;
+
+    /*    font-family: 'Poppins', sans-serif;*/
+}
+
+#profilPic {
+    height: 120px;
+    width: 120px;
+    clip-path: circle(50%);
+    display: block;
+    margin-left: auto;
+    margin: auto;
+}
+
+#title{
+    font-size: 2vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contactInfo{
+    background: #448aff;
+    padding: 20px;
+
+}
+
+#contactInfo ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contactInfo li {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.8rem;
+/*    font-size: 0.8vw;*/
+}
+
+
+
+#contactInfo i {
+    margin-right: 10px;
+}
+
+#linkContainer {
+    margin-top: 15px;
+    height: 35vh;
+}
+
+#sidebar ul li a {
+    font-size: 2.2vh;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+#sidebar ul li a:hover {
+    color: #448aff;
+    background: #fff;
+    text-decoration: none;
+}
+
+
+
+#social{
+    text-align: center;
+    bottom:0;
+    padding-bottom: 20px;
+/*    height: ;*/
+    
+}
+
+i.fab{
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+    
+
+}
+
+i.fab:hover{
+    transform: scale(1.2);
+}
+
+
