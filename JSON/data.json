@@ -1,103 +1,115 @@
-    {
-        "profilePicture": "http://www.google.no ",
-        "firstName": "Jan-Philippe",
-        "lastName": "Guerrero",
-        "dateOfBirth": "050493",
-        "title": "Fullstack Java Developer",
-        "telephone": "12345678",
-        "email": "philippeguerrero@live.com",
-        "nationality": "Norwegian",
-         "summary": "Aspiring developer",
-        "languages":[
-            {
-                "language": "Norwegian",
-                "proficiency": "Advanced"
-            },
-            {
-                "language": "English",
-                "proficiency": "Intermediate"
-            },
-            {
-                "language": "Tagalog",
-                "proficiency": "Novice"
-            }
-        ],
-        "skills":[
-            {
-                "skill": "Lorem ipsum",
-                "proficiency": "Advanced"
-            }
-        ],
-        "socialLinks":[
-            {
-                "name": "Github",
-                "url": "www.github.com/philras"
-            },
-            {
-                "name": "LinkedIn",
-                "url": "www.linkedin.com/in/jan-phlippe/"
-            }
-        ],
-        "location": [
-            {
-                "address": "Kapellveien 17b",
-                "postalCode": "0487",
-                "city": "Oslo",
-                "country": "Norway"
-            }
-        ],
-        "projects": [
-            {
-                "projectName": "Fullstack Java",
-                "client": "Experis Academy",
-                "projectSummary": "Akselerert læringsprogram i 3 mnd med mål om å bli Fullstack Javautvikler med spesialisering i frontend. Utvalgte teknologier og rammeverk: Java, IntelliJ, Eclipse, UML, Git, Apache Maven, Scrum, Jira, Spring, SpringBoot, JDBC, Deployment, JNLP, REST, Microservices, Web Serves, HTML, CSS, Bootstrap 4, WGAG 2.0, JavaScript, jQuery, ReactJS, AngularJS, NodeJS, TDD, Continuous Integration, DevOps, Extreme programmering, Kanban, Progressiv Web Apps. Gjennomfører sertifiseringen Java SE Programmer I i perioden.",
-                "startDate": "2019",
-                "endDate": "2019",
-                "role": "Developer"
-            },
-            
-            {
-                "projectName": "Email signature",
-                "client": "The Juicery",
-                "projectSummary": "Philippe fikk i oppdrag i å lage email signaturen som skal bli brukt av de ansatte i The Juicery. HTML5/CSS3 ble brukt til å kode email signaturen.",
-                "startDate": "2019",
-                "endDate": "2019",
-                "role": "Frontend-developer"
-            }
-        ],
-        "education": [
-            {
-                "school": "Westerdals Oslo ACT",
-                "startDate": "2015",
-                "endDate": "2018",
-                "grade": "Bachelor i Informatikk"
-            }
-        ],
-        "workExperience": [
-            {
-                "startDate": "2019",
-                "endDate": "dd",
-                "position": "Fullstack Java-utvikler",
-                "employer": "Experis Academy",
-                "workDescription": "Et program som varer i 15 måneder, hvor de 3 første månedene er man på Noroff og har teori, casearbeid og sertifiseringsløp (Java SE Programmer 1). De neste 12 månedene er man ute hos en av Experis sine kunder og jobber med prosjekt for kunden."
-            }
-        ],
-        "sertifications": [
-          {
-                "startDate": "2019",
-                "endDate": "dd",
-                "sertificate": "Oracle Certified Associate, Java SE 8 Programmer",
-                "organizer": "Glasspaper",
-                "sertificateDescription": ""
-            }  
-        ],
-        "courses": [
-          {
-                "endDate": "",
-                "nameCourse": "",
-                "organizer": "",
-                "courseDescription": ""
-            }  
-        ]
-        
+{
+    "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMJqB9IMTys5fV9ynCT0b3agrWLAZAfD0NKBvrFMQ6Nt5gX5iD",
+    "firstName": "Mathias",
+    "lastName": "Dahl Andersen",
+    "dateOfBirth": "250895",
+    "title": "Utvikler",
+    "telephone": "52848294",
+    "email": "mathias@yes.com",
+    "nationality": "Norsk",
+    "languages":[
+        {
+            "language": "Norsk",
+            "proficiency": "Advanced"
+        },
+        {
+            "language": "Engelsk",
+            "proficiency": "Intermediate"
+        }
+    ],
+    "skills":[
+        {
+            "skill": "Javascript",
+            "proficiency": "Advanced"
+        },
+        {
+            "skill": "HTML",
+            "proficiency": "Intermediate"
+        },
+        {
+            "skill": "CSS",
+            "proficiency": "Intermediate"
+        },
+        {
+            "skill": "Wordpress",
+            "proficiency": "Novice"
+        },
+        {
+            "skill": "Python",
+            "proficiency": "Novice"
+        },
+        {
+            "skill": "Walking",
+            "proficiency": "Advanced"
+        },
+        {
+            "skill": "Breathing",
+            "proficiency": "Novice"
+        }
+    ],
+    "socialLinks":[
+        {
+            "name": "Github",
+            "url": "https://github.com/Xhen"
+        },
+        {
+            "name": "Linkedin",
+            "url": "https://www.linkedin.com/in/mathiasda/"
+        }
+    ],
+    "location": [
+        {
+            "address": "Torpåsen Terrasse 17",
+            "postalCode": "1658",
+            "city": "Fredrikstad",
+            "country": "Norge"
+        }
+    ],
+
+    "summary": "Sed gravida in orci et viverra. Nam luctus libero vel nunc faucibus, a blandit est maximus. In rutrum vestibulum lorem, vitae efficitur nisl viverra vitae. Etiam commodo neque quis enim elementum vulputate. Nulla malesuada vulputate est vel pellentesque. Aliquam risus sapien, mattis ac vulputate bibendum, pretium at nibh. Nullam sit amet nibh ac sem accumsan posuere. Nullam sagittis tempor leo id interdum. In varius nisi egestas lorem suscipit bibendum. Maecenas malesuada, eros at varius dapibus, arcu lectus pellentesque dui, sit amet iaculis velit lorem ut felis. Etiam in pretium quam, laoreet finibus elit. Nunc ut hendrerit lorem. Suspendisse suscipit sit amet leo ac mollis. Sed sapien nisi, vulputate sit amet risus vestibulum, bibendum rutrum metus. Aliquam a est vehicula, feugiat nisl in, congue nunc. Suspendisse pharetra nunc id orci imperdiet, cursus vehicula ex aliquam.",
+    "projects": [
+        {
+            "projectName": "Bachelor prosjekt",
+            "client": "TRF Group",
+            "projectSummary": "Under prosjektperioden brukte gruppen Scrum metodikken som passet utrolig godt, ettersom kunden stadig hadde nye endringer og ideer under prosessen. Selve løsningen ble basert på Wordpress som lot deres ansatte uten teknisk bakgrunn publisere og endre på nettstedets struktur og utseende. De la også til verktøy for å kunne etablere nye nettsteder uten å ha ferdigheter innen programmering.",
+            "startDate": "2017",
+            "endDate": "2018",
+            "role": "Utvikler"
+        }
+    ],
+    "education": [
+        {
+            "school": "Høgskolen i Østfold",
+            "startDate": "2014",
+            "endDate": "2018",
+            "grade": "Bachelorgrad i Informasjonssystemer"
+        }
+    ],
+    "workExperience": [
+        {
+            "startDate": "2014",
+            "endDate": "2019",
+            "position": "Servicemedarbeider",
+            "employer": "Shell",
+            "workDescription": "Etiam aliquam, diam ac malesuada bibendum, nisl turpis placerat lorem, vitae commodo nulla ex at nisl. Nullam commodo at quam eu elementum. Mauris aliquet enim diam, quis auctor magna lobortis ut. Etiam sagittis tortor turpis, eu malesuada nibh porta in. Curabitur eu justo elit."
+        }
+    ],
+    "sertifications": [
+        {
+            "startDate": "300319",
+            "endDate": "300325",
+            "sertificate": "Oracle Certified Associate(OCA), Java SE 8",
+            "organizer": "Paperglass",
+            "sertificateDescription": "Curabitur congue in metus vel rutrum. Ut a urna hendrerit, ultricies orci eget, facilisis ipsum. Quisque ut leo dapibus, lobortis orci non, ultrices lacus."
+        }  
+    ],
+    "courses": [
+        {
+            "endDate": "2018",
+            "nameCourse": "Javascript course",
+            "organizer": "Jonas Schmedtmann",
+            "courseDescription": "Et kurs tatt igjennom læringsplattformen Udemy, dette kurset gikk over konsepter som AJAX, OOP og det nyeste innen Javascript(Ecmascript 6) og Webpack"
+        }  
+    ]
+    
 }
