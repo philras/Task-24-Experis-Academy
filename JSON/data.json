@@ -1,134 +1,133 @@
     {
-        "profilePicture": "https://eybgna.db.files.1drv.com/y4mHrD2pnTmkYK5jS69rcTxiE9ISN9qhchSg2h5LNXI39_mdQcBE20_GRrsyKolSp5KvF9R0pAcMqnDVjhtrUXpukJzQ_SCJ2U5JrcSU8wpc7wkZyrjf30OtdzX8FUasQZkrvi3JnVh4idGfkSJAuQmZdOHAJrGjibsRPH8Ikf2rroIEkDGbzSX7YPkCWQ6L2U24wiLvNIFrqvLfE-MUoSIfQ?width=495&height=660&cropmode=none ",
-        "firstName": "Jan-Philippe",
-        "lastName": "Guerrero",
-        "dateOfBirth": "050493",
-        "title": "Fullstack Java Developer",
-        "telephone": "97 122 911",
-        "email": "philippeguerrero@live.com",
-        "nationality": "Norwegian",
-        "summary": "Spicy jalapeno bacon ipsum dolor amet sirloin jerky alcatra leberkas t-bone rump beef meatloaf shank tongue turducken spare ribs venison ground round. Filet mignon ground round beef ribs spare ribs ham hock chuck bresaola. Picanha prosciutto brisket pork chop ham. Spare ribs picanha pancetta, pig jowl cupim burgdoggen t-bone meatball ribeye andouille boudin meatloaf. Brisket biltong kevin beef, pork belly rump pig bresaola spare ribs tri-tip drumstick.",
+        "profilePicture": "",
+        "lastName": "",
+        "dateOfBirth": "",
+        "title": "",
+        "telephone": "",
+        "email": "",
+        "nationality": "",
+        "summary": "",
         "languages": [
             {
-                "language": "Norwegian",
-                "proficiency": "Advanced"
+                "language": "",
+                "proficiency": ""
             },
             {
-                "language": "English",
-                "proficiency": "Intermediate"
+                "language": "",
+                "proficiency": ""
             },
             {
-                "language": "Tagalog",
-                "proficiency": "Novice"
+                "language": "",
+                "proficiency": ""
             }
         ],
         "skills": [
             {
-                "skill": "Java",
-                "proficiency": "Expert"
+                "skill": "",
+                "proficiency": ""
             },
             {
-                "skill": "JavaScript",
-                "proficiency": "Advanced"
+                "skill": "",
+                "proficiency": ""
             },
             {
-                "skill": "Tinder",
-                "proficiency": "Godlike"
+                "skill": "",
+                "proficiency": ""
             },
             {
-                "skill": "HTML",
-                "proficiency": "Advanced"
+                "skill": "",
+                "proficiency": ""
             },
             {
-                "skill": "CSS",
-                "proficiency": "Novice"
+                "skill": "",
+                "proficiency": ""
             }
         ],
         "socialLinks": [
             {
-                "name": "Github",
-                "url": "https://github.com/philras"
+                "name": "",
+                "url": ""
             },
             {
-                "name": "LinkedIn",
-                "url": "https://linkedin.com/in/jan-phlippe/"
+                "name": "",
+                "url": ""
             }
         ],
         "location": [
             {
-                "address": "Kapellveien 17b",
-                "postalCode": "0487",
-                "city": "Oslo",
-                "country": "Norway"
+                "address": "",
+                "postalCode": "",
+                "city": "",
+                "country": ""
             }
         ],
         "projects": [
             {
-                "projectName": "Fullstack Java",
-                "client": "Experis Academy",
-                "projectSummary": "Akselerert læringsprogram i 3 mnd med mål om å bli Fullstack Javautvikler med spesialisering i frontend. Utvalgte teknologier og rammeverk: Java, IntelliJ, Eclipse, UML, Git, Apache Maven, Scrum, Jira, Spring, SpringBoot, JDBC, Deployment, JNLP, REST, Microservices, Web Serves, HTML, CSS, Bootstrap 4, WGAG 2.0, JavaScript, jQuery, ReactJS, AngularJS, NodeJS, TDD, Continuous Integration, DevOps, Extreme programmering, Kanban, Progressiv Web Apps. Gjennomfører sertifiseringen Java SE Programmer I i perioden.",
-                "startDate": "2019",
-                "endDate": "2019",
-                "role": "Developer"
+                "projectName": "",
+                "client": "",
+                "projectSummary": "",
+                "startDate": "",
+                "endDate": "",
+                "role": ""
             },
 
             {
-                "projectName": "Email signature",
-                "client": "The Juicery",
-                "projectSummary": "Philippe fikk i oppdrag i å lage email signaturen som skal bli brukt av de ansatte i The Juicery. HTML5/CSS3 ble brukt til å kode email signaturen.",
-                "startDate": "2019",
-                "endDate": "2019",
-                "role": "Frontend-developer"
+                "projectName": "",
+                "client": "",
+                "projectSummary": "",
+                "startDate": "",
+                "endDate": "",
+                "role": ""
             },
             {
-                "projectName": "Bachelor project",
-                "client": "Redux Enterprise",
-                "projectSummary": "I forbindelse med bacheloroppgaven til Philippe fra Westerdals, var han og hans gruppe ute i en startup for å jobbe med et prosjekt fra Redux Enterprise. Redux Enterprise er en startup som fokuserer på å utvikle en plattform som skal samle alle ERP verktøy/software som et lite/medium selskap trenger, i et og samme plattform.Under dette prosjektet fikk gruppen i oppgave i å designe og utvikle en mobil applikasjon med fokus på Customer Relationship Management (CRM) modulen i Redux sin Enterprise Resource Planning (ERP) system. Modulen skal gi et selskap en full oversikt over salg, oppdrag, leads, kunder og partnere. I dette prosjektet ble det brukt ulike design prinsipper for å designe en brukervennlig CRM modul. For å utvikle modulen ble det brukt React Native, TypeScript og REST API for å hente og vise data fra back-end.",
-                "startDate": "2018",
-                "endDate": "2018",
-                "role": "Developer"
+                "projectName": "",
+                "client": "",
+                "projectSummary": "",
+                "startDate": "",
+                "endDate": "",
+                "role": ""
             },
             {
-                "projectName": "DNB Studentbudsjett",
-                "client": "DNB",
-                "projectSummary": "I forbindelse med et prosjekt fra Westerdals Oslo ACT, fikk Philippe sin gruppe i oppdrag å utforme en web applikasjon for DNB innenfor økonomisk coaching. Som gikk ut på å hjelpe med forbedrende tiltak mot bedre økonomi.Applikasjonen tilbyr økonomiske råd/coaching og tips, en ryddig oversikt over budsjett og ulike kontoer hos DNB, en spare funksjon som viser total sparing og hvordan man ligger an. Applikasjonen har et stort fokus på brukervennlighet og design, og målgruppen er satt til studenter alder 16-26 år.I prosjektet har det blitt brukt CSS3/HTML5, JavaScript og JQuery for å utvikle de ulike funksjonene og designen på web applikasjonen. For å lagre informasjon som blir lagt inn i web applikasjonen, har det blitt brukt Firebase som database. Ved hjelp av Firebase sitt API kan man lagre og hente data ut fra Firebase. SCRUM og Jira har blitt brukt som agile rammeverk under prosjektet, hvor gruppen fikk tildelt ulike roller.",
-                "startDate": "2016",
-                "endDate": "2017",
-                "role": "Developer"
+                "projectName": "",
+                "client": "",
+                "projectSummary": "",
+                "startDate": "",
+                "endDate": "",
+                "role": ""
             }
         ],
         "education": [
             {
-                "school": "Westerdals Oslo ACT",
-                "startDate": "2015",
-                "endDate": "2018",
-                "grade": "Bachelor i Informatikk"
+                "school": "",
+                "startDate": "",
+                "endDate": "",
+                "grade": ""
             }
         ],
         "workExperience": [
             {
-                "startDate": "2019",
-                "endDate": "dd",
-                "position": "Fullstack Java-utvikler",
-                "employer": "Experis Academy",
-                "workDescription": "Et program som varer i 15 måneder, hvor de 3 første månedene er man på Noroff og har teori, casearbeid og sertifiseringsløp (Java SE Programmer 1). De neste 12 månedene er man ute hos en av Experis sine kunder og jobber med prosjekt for kunden."
+                "startDate": "",
+                "endDate": "",
+                "position": "",
+                "employer": "",
+                "workDescription": ""
             }
         ],
         "certificates": [
             {
-                "startDate": "2019",
-                "endDate": "dd",
-                "sertificate": "Oracle Certified Associate, Java SE 8 Programmer",
-                "organizer": "Glasspaper",
+                "startDate": "",
+                "endDate": "",
+                "sertificate": "",
+                "organizer": "",
                 "sertificateDescription": ""
             }
         ],
         "courses": [
             {
-                "endDate": "2018",
-                "nameCourse": "Building The Perfect Tinder Profile. Volume 4",
-                "organizer": "Udemy",
-                "courseDescription": "A professional dating coach teaches you how to set up your Perfect Tinder Profile to maximize your dating success!"
+                "endDate": "",
+                "nameCourse": "",
+                "organizer": "",
+                "courseDescription": ""
             }
         ]
 
