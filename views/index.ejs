@@ -12,6 +12,10 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+
 
 
 </head>
@@ -21,11 +25,19 @@
         <nav id="sidebar">
             <div id="navHeader" class="sidebar-header">
                 <h2 align="center" id="sideBarName"><%= user.firstName + " " +user.lastName %> </h2>
-                <img align="center" id="profilPic" src="<%- user.profilePicture %>">
-                <p align="center" id="title"><%= user.title %></p>
-                <p><%= user.location[0].address + ", " + user.location[0].postalCode + " " + user.location[0].city  %></p>
-                <p><%= user.email %></p>
-                <p><%= user.telephone %></p>
+
+                <div>
+                    <img align="center" id="profilPic" src="<%- user.profilePicture %>">
+                    <p align="center" id="title"><%= user.title %></p>
+                </div>
+            </div>
+
+            <div id="contactInfo">
+                <ul>
+                    <li><i class="fas fa-home"></i><%= user.location[0].address + ", " + user.location[0].postalCode + " " + user.location[0].city  %></li>
+                    <li><i class="fas fa-envelope"></i><%= user.email %></li>
+                    <li><i class="fas fa-phone"></i><%= user.telephone %></li>
+                </ul>
             </div>
 
             <div id="linkContainer">
@@ -42,10 +54,12 @@
                 </ul>
             </div>
 
-            <div id="socialLinks">
-                <a href="<%- user.socialLinks[0].url %>"><i class="fab fa-github fa-3x"></i></a>
-                <a href="<%- user.socialLinks[1].url %>"><i class="fab fa-linkedin-in fa-3x"></i></a>
+
+            <div id="social">
+                <a href><i class="fab fa-github fa-3x"></i></a>
+                <a href><i class="fab fa-linkedin fa-3x"></i></a>
             </div>
+
         </nav>
 
         <div id="content">
@@ -84,7 +98,18 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
     </div>
-    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+        });
+
+    </script>
 </body>
 
 </html>

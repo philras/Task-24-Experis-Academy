@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    
 }
+
 
 h1 {
     font-size: 2rem;
@@ -20,14 +22,35 @@ h1 {
 .wrapper {
     display: flex;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
-#sideBarName{
-    font-size: 1.2em;
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 999;
+    background: #83b9ff;
+    color: #fff;
+}
+
+#navHeader {
+    background: #005ecb;
+    padding: 10px;
+   
+}
+
+#sideBarName {
+/*    font-size: 1.2em;*/
+    font-size: 2.5vh;
     padding: 15px;
+
+    /*    font-family: 'Poppins', sans-serif;*/
 }
 
-#profilPic{
+#profilPic {
     height: 120px;
     width: 120px;
     clip-path: circle(50%);
@@ -36,62 +59,78 @@ h1 {
     margin: auto;
 }
 
-p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 1em;
+#title{
+    font-size: 2vh;
 }
 
-.sidebarLinks{
-    color: white;
-    
+#contactInfo{
+    background: #448aff;
+    padding: 20px;
+}
+
+#contactInfo ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0
+}
+
+#contactInfo li {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.8rem;
+/*    font-size: 0.8vw;*/
+}
+
+
+
+#contactInfo i {
+    margin-right: 10px;
+}
+
+#linkContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40vh;
 }
 
 #sidebar ul li a {
-    font-size: 1.1em;
+    font-size: 2.2vh;
     display: block;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    transition: all 0.5s;
+    text-align: center;
 }
 
 #sidebar ul li a:hover {
     color: #448aff;
     background: #fff;
+    text-decoration: none;
 }
 
-#sidebar {
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    z-index: 999;
-    background: #448aff;
-    color: #fff;
-}
 
-#navHeader{
-    background:  #005ecb;
-    padding: 10px;
-}
-#linkContainer{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.sidebarLinks{
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
-.sidebarLinks a {
-    padding:10px;
-}
-
-i{
-    color: #ffffff;
-}
-
-#socialLinks{
+#social{
     text-align: center;
+    bottom:0;
+    height: 10vh;
+    
 }
+
+i.fab{
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+    
+}
+
+i.fab:hover{
+    transform: scale(1.2);
+}
+
 
 /*------ CONTENT --------*/
 #content {
@@ -101,9 +140,15 @@ i{
     position: absolute;
     top: 0;
     right: 0;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+p {
+    /*    font-family: 'Poppins', sans-serif;*/
+    
 }
 
 #content.active {
     width: 100%;
 }
-
