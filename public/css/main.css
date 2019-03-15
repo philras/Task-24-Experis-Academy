@@ -86,6 +86,7 @@ html, body {
 
 #title{
     font-size: 2vh;
+    font-family: 'Poppins', sans-serif;
 }
 
 #contactInfo{
@@ -98,7 +99,8 @@ html, body {
     list-style-type: none;
     display: block;
     margin: 0;
-    padding: 0
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 #contactInfo li {
@@ -117,9 +119,8 @@ html, body {
 }
 
 #linkContainer {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 40vh;
+    margin-top: 15px;
+    height: 35vh;
 }
 
 #sidebar ul li a {
@@ -142,7 +143,8 @@ html, body {
 #social{
     text-align: center;
     bottom:0;
-    height: 10vh;
+    padding-bottom: 20px;
+/*    height: ;*/
     
 }
 
@@ -150,6 +152,7 @@ i.fab{
     color: white;
     padding: 10px;
     transition: 0.5s;
+    
 
 }
 

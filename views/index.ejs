@@ -250,7 +250,7 @@
         <% } %>
 
         <!-- Certifications -->
-        <% if(user.sertifications.length > 0){ %>
+        <% if(user.certificates.length > 0){ %>
         <section id="certification" class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -261,12 +261,12 @@
                             </h5>
                             <p class="card-text">
                                 <div class="row">
-                                    <% user.sertifications.forEach(function(sert){ %>
+                                    <% user.certificates.forEach(function(sert){ %>
                                     <div class="card-item col-sm-6 col-md-12">
                                         <div class="card">
                                             <div class="card-body">
                                                 <h5 class="h4"><%= sert.organizer %></h5>
-                                                <p class="lead"><%= sert.sertificate %></p>
+                                                <p class="lead"><%= sert.certificates %></p>
                                                 <p>
                                                     <span> <%= sert.startDate %> </span> -
                                                     <span> <%= sert.endDate %> </span>

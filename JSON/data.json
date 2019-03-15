@@ -4,11 +4,11 @@
         "lastName": "Guerrero",
         "dateOfBirth": "050493",
         "title": "Fullstack Java Developer",
-        "telephone": "97122911",
+        "telephone": "97 122 911",
         "email": "philippeguerrero@live.com",
         "nationality": "Norwegian",
-         "summary": "Aspiring developer",
-        "languages":[
+        "summary": "Spicy jalapeno bacon ipsum dolor amet sirloin jerky alcatra leberkas t-bone rump beef meatloaf shank tongue turducken spare ribs venison ground round. Filet mignon ground round beef ribs spare ribs ham hock chuck bresaola. Picanha prosciutto brisket pork chop ham. Spare ribs picanha pancetta, pig jowl cupim burgdoggen t-bone meatball ribeye andouille boudin meatloaf. Brisket biltong kevin beef, pork belly rump pig bresaola spare ribs tri-tip drumstick.",
+        "languages": [
             {
                 "language": "Norwegian",
                 "proficiency": "Advanced"
@@ -22,13 +22,29 @@
                 "proficiency": "Novice"
             }
         ],
-        "skills":[
+        "skills": [
             {
-                "skill": "",
-                "proficiency": ""
+                "skill": "Java",
+                "proficiency": "Expert"
+            },
+            {
+                "skill": "JavaScript",
+                "proficiency": "Advanced"
+            },
+            {
+                "skill": "Tinder",
+                "proficiency": "Godlike"
+            },
+            {
+                "skill": "HTML",
+                "proficiency": "Advanced"
+            },
+            {
+                "skill": "CSS",
+                "proficiency": "Novice"
             }
         ],
-        "socialLinks":[
+        "socialLinks": [
             {
                 "name": "Github",
                 "url": "https://github.com/philras"
@@ -55,7 +71,7 @@
                 "endDate": "2019",
                 "role": "Developer"
             },
-            
+
             {
                 "projectName": "Email signature",
                 "client": "The Juicery",
@@ -63,6 +79,22 @@
                 "startDate": "2019",
                 "endDate": "2019",
                 "role": "Frontend-developer"
+            },
+            {
+                "projectName": "Bachelor project",
+                "client": "Redux Enterprise",
+                "projectSummary": "I forbindelse med bacheloroppgaven til Philippe fra Westerdals, var han og hans gruppe ute i en startup for å jobbe med et prosjekt fra Redux Enterprise. Redux Enterprise er en startup som fokuserer på å utvikle en plattform som skal samle alle ERP verktøy/software som et lite/medium selskap trenger, i et og samme plattform.Under dette prosjektet fikk gruppen i oppgave i å designe og utvikle en mobil applikasjon med fokus på Customer Relationship Management (CRM) modulen i Redux sin Enterprise Resource Planning (ERP) system. Modulen skal gi et selskap en full oversikt over salg, oppdrag, leads, kunder og partnere. I dette prosjektet ble det brukt ulike design prinsipper for å designe en brukervennlig CRM modul. For å utvikle modulen ble det brukt React Native, TypeScript og REST API for å hente og vise data fra back-end.",
+                "startDate": "2018",
+                "endDate": "2018",
+                "role": "Developer"
+            },
+            {
+                "projectName": "DNB Studentbudsjett",
+                "client": "DNB",
+                "projectSummary": "I forbindelse med et prosjekt fra Westerdals Oslo ACT, fikk Philippe sin gruppe i oppdrag å utforme en web applikasjon for DNB innenfor økonomisk coaching. Som gikk ut på å hjelpe med forbedrende tiltak mot bedre økonomi.Applikasjonen tilbyr økonomiske råd/coaching og tips, en ryddig oversikt over budsjett og ulike kontoer hos DNB, en spare funksjon som viser total sparing og hvordan man ligger an. Applikasjonen har et stort fokus på brukervennlighet og design, og målgruppen er satt til studenter alder 16-26 år.I prosjektet har det blitt brukt CSS3/HTML5, JavaScript og JQuery for å utvikle de ulike funksjonene og designen på web applikasjonen. For å lagre informasjon som blir lagt inn i web applikasjonen, har det blitt brukt Firebase som database. Ved hjelp av Firebase sitt API kan man lagre og hente data ut fra Firebase. SCRUM og Jira har blitt brukt som agile rammeverk under prosjektet, hvor gruppen fikk tildelt ulike roller.",
+                "startDate": "2016",
+                "endDate": "2017",
+                "role": "Developer"
             }
         ],
         "education": [
@@ -83,21 +115,21 @@
             }
         ],
         "certificates": [
-          {
+            {
                 "startDate": "2019",
                 "endDate": "dd",
                 "sertificate": "Oracle Certified Associate, Java SE 8 Programmer",
                 "organizer": "Glasspaper",
                 "sertificateDescription": ""
-            }  
+            }
         ],
         "courses": [
-          {
-                "endDate": "",
-                "nameCourse": "",
-                "organizer": "",
-                "courseDescription": ""
-            }  
+            {
+                "endDate": "2018",
+                "nameCourse": "Building The Perfect Tinder Profile. Volume 4",
+                "organizer": "Udemy",
+                "courseDescription": "A professional dating coach teaches you how to set up your Perfect Tinder Profile to maximize your dating success!"
+            }
         ]
-        
-}
+
+    }
